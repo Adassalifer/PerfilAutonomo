@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Designer-Landing Page</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Lobster&family=Montserrat:wght@300;400;600&family=Open+Sans:wght@300&family=Playfair+Display&family=Poppins:wght@400;700&family=Quicksand:wght@300;
+400;600&family=Vollkorn:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header>
+<h1> Adassa Jeannefer </h1>
+<h2>Designer de Moda</h2>
+<nav>
+<ul>
+<li><a href="#about">Sobre</a></li>
+<li><a href="#products">Produtos/Serviços</a></li>
+<li><a href="#contact">Contato</a></li>
+</ul>
+</nav>
+</header>
+
+<section id="about">
+<div class="about-image">
+<img src="assets\ada.jpg" alt="Designer de Moda">
+</div>
+
+<div class="about-text">
+<h2>Sobre mim</h2>
+<p> Sou Designer de moda em atuação desde 2016, sou
+    especializada em oferecer fantasias, acessórios, coloração pessoal, serviços personal 
+    shopper e style. Trabalho com paixão e dedicação para tornar meus clientes mais confiantes
+     e estilosos.</p>
+</div>
+</section>
+<section id="products">
+<h2>Produtos/Serviços</h2>
+<div class="product">
+<img src="assets\fant.jpg" alt="Fantasias" data-src="fant.jpg">
+<h3>Fantasias</h3>
+<p>Crie visuais incríveis com nossas fantasias únicas e exclusivas.</p>
+</div>
+
+<div class="product">
+<img src="assets\acessorios.jpeg" alt="Acessórios">
+<h3>Acessórios</h3>
+<p>Complemente seu look com os acessórios mais modernos e elegantes.</p>
+</div>
+
+<div class="product">
+<img src="assets\color.jpeg" alt="Coloração Pessoal">
+<h3>Coloração Pessoal</h3>
+<p>Descubra as cores que realçam sua beleza natural e expressam sua personalidade.</p>
+</div>
+
+<div class="product">
+<img src="assets\personal.jpeg" alt="Serviços de Personal Shopper">
+<h3>Serviços de Personal Shopper</h3>
+<p>Receba orientação especializada para fazer compras de moda de acordo com seu estilo e preferências.</p>
+</div>
+
+<div class="product">
+<img src="assets\persoStyl.jpg" alt="Serviços de Style">
+<h3>Serviços de Style</h3>
+<p>Obtenha consultoria de estilo personalizada para se vestir com confiança e sofisticação.</p>
+</div>
+</section>
+
+<section id="contact">
+<h2>Entre em Contato</h2>
+<p>Entre em contato conosco preenchendo o formulário abaixo e responderemos o mais breve possível.</p>
+<form action="submit.php" method="POST">
+<label for="name">Nome:</label>
+<input type="text" id="name" name="name" required>
+<label for="email">E-mail:</label>
+<input type="email" id="email" name="email" required>
+<label for="message">Mensagem:</label>
+<textarea id="message" name="message" required></textarea>
+<button type="submit">Enviar</button>
+</form>
+</section>
+
+<footer>
+<p>&copy; 2022 Adassa Jeannefer -Designer de Moda. Todos os direitos reservados.</p>
+</footer>
+
+
+</body>
+</html>
